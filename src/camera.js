@@ -16,7 +16,7 @@ module.exports = exports = Camera;
  */
 function Camera(screen) {
   this.x = 0;
-  this.y = 0;
+  this.y = 16000;
   this.width = screen.width;
   this.height = screen.height;
 }
@@ -28,6 +28,7 @@ function Camera(screen) {
  */
 Camera.prototype.update = function(target) {
   // TODO: Align camera with player
+  this.y = this.y - 2;
 }
 
 /**

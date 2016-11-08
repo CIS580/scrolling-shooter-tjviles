@@ -7,7 +7,7 @@ The game is implemented in JavaScript using the HTML5 canvas element and the pro
 
 1. The player pilots a ship that can maneuver around the screen and fire weapons.  The player has a set amount of life that is reduced by being hit by enemy weapons and enemies.  When the player dies, they explode using a particle system (20 points).
 
-2. The player flies through a parallax scrolling world composed of at least three layers generated using tilemaps (20 points).
+2. The player flies through a parallax scrolling world composed of at least three layers generated using tilemaps (20 points). X
 
 3. The player ship can be upgraded with better weapons providing different advantages and visual representations on-screen.  These upgrades are provided via powerups that can be picked up in game.  At least three of these implement particle effects (20 points).
 
